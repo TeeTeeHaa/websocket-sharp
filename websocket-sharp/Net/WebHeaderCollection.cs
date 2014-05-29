@@ -40,6 +40,8 @@
  */
 #endregion
 
+#pragma warning disable 618 // CHANGED to suppress warnings
+
 using System;
 using System.Collections;
 using System.Collections.Generic;
@@ -1527,3 +1529,5 @@ namespace WebSocketSharp.Net
     #endregion
   }
 }
+
+#pragma warning restore 618 // CHANGED to suppress warnings

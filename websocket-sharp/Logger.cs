@@ -150,7 +150,7 @@ namespace WebSocketSharp
       set {
         lock (_sync) {
           _level = value;
-          Warn (String.Format ("The current logging level has been changed to {0}.", _level));
+          Info (String.Format ("The current logging level has been changed to {0}.", _level)); // CHANGED from Warn to Info because of personal preference
         }
       }
     }
@@ -177,7 +177,7 @@ namespace WebSocketSharp
       set {
         lock (_sync) {
           _output = value ?? defaultOutput;
-          Warn ("The current output action has been changed.");
+          Info ("The current output action has been changed."); // CHANGED from Warn to Info because of personal preference
         }
       }
     }
@@ -189,7 +189,7 @@ namespace WebSocketSharp
     private static void defaultOutput (LogData data, string path)
     {
       var log = data.ToString ();
-      Console.WriteLine (log);
+      System.Console.WriteLine (log); // CHANGED to fix compile error in Unity
       if (path != null && path.Length > 0)
         writeToFile (path, log);
     }
@@ -207,7 +207,7 @@ namespace WebSocketSharp
         }
         catch (Exception ex) {
           data = new LogData (LogLevel.Fatal, new StackFrame (0, true), ex.Message);
-          Console.WriteLine (data.ToString ());
+          System.Console.WriteLine (data.ToString ()); // CHANGED to fix compile error in Unity
         }
       }
     }

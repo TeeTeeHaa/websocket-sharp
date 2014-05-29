@@ -48,7 +48,7 @@ namespace WebSocketSharp
 
     #region Internal Constructors
 
-    internal LogData (LogLevel level, StackFrame caller, string message)
+    public LogData (LogLevel level, StackFrame caller, string message) // CHANGED from internal to public to be able to call constructor from outside
     {
       _level = level;
       _caller = caller;
