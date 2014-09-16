@@ -71,6 +71,9 @@ namespace Example
         //ws.SetCookie (new Cookie ("name", "nobita"));
         //ws.SetCookie (new Cookie ("roles", "\"idiot, gunfighter\""));
 
+        // Setting Proxy
+        //ws.SetProxy ("http://localhost:3128", "nobita", "password");
+
         // Connecting to the server
         ws.Connect ();
         //ws.ConnectAsync ();
