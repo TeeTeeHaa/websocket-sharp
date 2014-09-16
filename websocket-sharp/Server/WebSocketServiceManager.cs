@@ -286,7 +286,7 @@ namespace WebSocketSharp.Server
       WebSocketServiceHost host;
       lock (_sync) {
         if (!_hosts.TryGetValue (path, out host)) {
-          _logger.Error ("A WebSocket service with the specified path not found.\npath: " + path);
+          _logger.Debug ("A WebSocket service with the specified path not found.\npath: " + path); // CHANGED from Error to Debug because of personal preference
           return false;
         }
 
@@ -338,7 +338,7 @@ namespace WebSocketSharp.Server
       }
 
       if (!result)
-        _logger.Error ("A WebSocket service with the specified path not found.\npath: " + path);
+        _logger.Debug ("A WebSocket service with the specified path not found.\npath: " + path); // CHANGED from Error to Debug because of personal preference
 
       return result;
     }
