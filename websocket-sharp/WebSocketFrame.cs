@@ -618,7 +618,7 @@ Extended Payload Length: {7}
 
     public void Print (bool dumped)
     {
-      Console.WriteLine (dumped ? dump (this) : print (this));
+	  System.Console.WriteLine (dumped ? dump (this) : print (this)); // CHANGED to fix compile error in Unity
     }
 
     public string PrintToString (bool dumped)

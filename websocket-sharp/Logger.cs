@@ -127,8 +127,8 @@ namespace WebSocketSharp
       set {
         lock (_sync) {
           _file = value;
-          Warn (
-            String.Format ("The current path to the log file has been changed to {0}.", _file));
+          Info (
+            String.Format ("The current path to the log file has been changed to {0}.", _file)); // CHANGED from Warn to Info because of personal preference
         }
       }
     }
