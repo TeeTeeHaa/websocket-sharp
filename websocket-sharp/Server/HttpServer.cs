@@ -1,3 +1,5 @@
+#if !UNITY_WEBPLAYER
+
 #region License
 /*
  * HttpServer.cs
@@ -776,3 +778,5 @@ namespace WebSocketSharp.Server
     #endregion
   }
 }
+
+#endif // !UNITY_WEBPLAYER

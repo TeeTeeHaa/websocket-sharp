@@ -1,3 +1,5 @@
+#if !UNITY_WEBPLAYER
+
 #region License
 /*
  * Rsv.cs
@@ -36,3 +38,5 @@ namespace WebSocketSharp
     On = 0x1
   }
 }
+
+#endif // !UNITY_WEBPLAYER

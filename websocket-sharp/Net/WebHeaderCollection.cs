@@ -1,3 +1,5 @@
+#if !UNITY_WEBPLAYER
+
 #region License
 /*
  * WebHeaderCollection.cs
@@ -1531,3 +1533,5 @@ namespace WebSocketSharp.Net
 }
 
 #pragma warning restore 618 // CHANGED to suppress warnings
+
+#endif // !UNITY_WEBPLAYER

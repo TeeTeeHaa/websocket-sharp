@@ -1,3 +1,5 @@
+#if !UNITY_WEBPLAYER
+
 #region License
 /*
  * Opcode.cs
@@ -71,3 +73,5 @@ namespace WebSocketSharp
     Pong = 0xa
   }
 }
+
+#endif // !UNITY_WEBPLAYER

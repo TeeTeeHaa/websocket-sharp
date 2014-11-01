@@ -1,3 +1,5 @@
+#if !UNITY_WEBPLAYER
+
 #region License
 /*
  * ErrorEventArgs.cs
@@ -108,3 +110,5 @@ namespace WebSocketSharp
     #endregion
   }
 }
+
+#endif // !UNITY_WEBPLAYER

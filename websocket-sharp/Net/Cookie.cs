@@ -1,3 +1,5 @@
+#if !UNITY_WEBPLAYER
+
 #region License
 /*
  * Cookie.cs
@@ -820,3 +822,5 @@ namespace WebSocketSharp.Net
     #endregion
   }
 }
+
+#endif // !UNITY_WEBPLAYER

@@ -1,3 +1,5 @@
+#if !UNITY_WEBPLAYER
+
 #region License
 /*
  * InputChunkState.cs
@@ -49,3 +51,5 @@ namespace WebSocketSharp.Net
     Trailer
   }
 }
+
+#endif // !UNITY_WEBPLAYER

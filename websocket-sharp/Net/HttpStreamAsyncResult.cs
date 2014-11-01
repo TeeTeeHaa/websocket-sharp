@@ -1,3 +1,5 @@
+#if !UNITY_WEBPLAYER
+
 #region License
 /*
  * HttpStreamAsyncResult.cs
@@ -131,3 +133,5 @@ namespace WebSocketSharp.Net
     #endregion
   }
 }
+
+#endif // !UNITY_WEBPLAYER

@@ -1,3 +1,5 @@
+#if !UNITY_WEBPLAYER
+
 #region License
 /*
  * Mask.cs
@@ -36,3 +38,5 @@ namespace WebSocketSharp
     Mask = 0x1
   }
 }
+
+#endif // !UNITY_WEBPLAYER

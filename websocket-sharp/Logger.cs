@@ -1,3 +1,5 @@
+#if !UNITY_WEBPLAYER
+
 #region License
 /*
  * Logger.cs
@@ -327,3 +329,5 @@ namespace WebSocketSharp
     #endregion
   }
 }
+
+#endif // !UNITY_WEBPLAYER

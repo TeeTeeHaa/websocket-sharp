@@ -1,3 +1,5 @@
+#if !UNITY_WEBPLAYER
+
 #region License
 /*
  * AuthenticationSchemes.cs
@@ -65,3 +67,5 @@ namespace WebSocketSharp.Net
     Anonymous = 0x8000
   }
 }
+
+#endif // !UNITY_WEBPLAYER

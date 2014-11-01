@@ -6,6 +6,7 @@ This fork was made for two reasons:
 
 1. Fixed compile errors and warnings when the source code is used directly within a Unity3D project.
 2. Changed some minor things based on personal preference.
+3. Added preprocessor definitions to all source code files to exclude them from Unity Web Player builds.
 
 To use this fork of **websocket-sharp** within a Unity3D project just copy the following files and directories into it (prebuilding the `dll` is not necessary):
 

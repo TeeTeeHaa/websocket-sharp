@@ -1,3 +1,5 @@
+#if !UNITY_WEBPLAYER
+
 #region License
 /*
  * CookieException.cs
@@ -145,3 +147,5 @@ namespace WebSocketSharp.Net
 }
 
 #pragma warning restore 618 // CHANGED to suppress warnings
+
+#endif // !UNITY_WEBPLAYER

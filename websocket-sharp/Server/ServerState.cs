@@ -1,3 +1,5 @@
+#if !UNITY_WEBPLAYER
+
 #region License
 /*
  * ServerState.cs
@@ -38,3 +40,5 @@ namespace WebSocketSharp.Server
     Stop
   }
 }
+
+#endif // !UNITY_WEBPLAYER

@@ -1,3 +1,5 @@
+#if !UNITY_WEBPLAYER
+
 #region License
 /*
  * InputState.cs
@@ -47,3 +49,5 @@ namespace WebSocketSharp.Net
     Headers
   }
 }
+
+#endif // !UNITY_WEBPLAYER

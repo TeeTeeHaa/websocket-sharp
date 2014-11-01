@@ -1,3 +1,5 @@
+#if !UNITY_WEBPLAYER
+
 #region License
 /*
  * HttpHeaderType.cs
@@ -42,3 +44,5 @@ namespace WebSocketSharp.Net
     MultiValueInResponse = 1 << 5
   }
 }
+
+#endif // !UNITY_WEBPLAYER

@@ -1,3 +1,5 @@
+#if !UNITY_WEBPLAYER
+
 #region License
 /*
  * ByteOrder.cs
@@ -45,3 +47,5 @@ namespace WebSocketSharp
     Big
   }
 }
+
+#endif // !UNITY_WEBPLAYER

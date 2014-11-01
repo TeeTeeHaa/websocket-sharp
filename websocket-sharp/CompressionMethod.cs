@@ -1,3 +1,5 @@
+#if !UNITY_WEBPLAYER
+
 #region License
 /*
  * CompressionMethod.cs
@@ -51,3 +53,5 @@ namespace WebSocketSharp
     Deflate
   }
 }
+
+#endif // !UNITY_WEBPLAYER

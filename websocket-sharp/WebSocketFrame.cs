@@ -1,3 +1,5 @@
+#if !UNITY_WEBPLAYER
+
 #region License
 /*
  * WebSocketFrame.cs
@@ -676,3 +678,5 @@ Extended Payload Length: {7}
     #endregion
   }
 }
+
+#endif // !UNITY_WEBPLAYER

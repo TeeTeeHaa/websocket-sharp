@@ -1,3 +1,5 @@
+#if !UNITY_WEBPLAYER
+
 #region License
 /*
  * WebSocketState.cs
@@ -62,3 +64,5 @@ namespace WebSocketSharp
     Closed = 3
   }
 }
+
+#endif // !UNITY_WEBPLAYER

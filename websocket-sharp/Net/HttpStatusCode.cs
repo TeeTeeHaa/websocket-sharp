@@ -1,3 +1,5 @@
+#if !UNITY_WEBPLAYER
+
 #region License
 /*
  * HttpStatusCode.cs
@@ -357,3 +359,5 @@ namespace WebSocketSharp.Net
     HttpVersionNotSupported = 505,
   }
 }
+
+#endif // !UNITY_WEBPLAYER

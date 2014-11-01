@@ -1,3 +1,5 @@
+#if !UNITY_WEBPLAYER
+
 using System.Reflection;
 using System.Runtime.CompilerServices;
 
@@ -24,3 +26,5 @@ using System.Runtime.CompilerServices;
 
 //[assembly: AssemblyDelaySign(false)]
 //[assembly: AssemblyKeyFile("")]
+
+#endif // !UNITY_WEBPLAYER

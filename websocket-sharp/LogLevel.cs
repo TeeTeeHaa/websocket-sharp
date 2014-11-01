@@ -1,3 +1,5 @@
+#if !UNITY_WEBPLAYER
+
 #region License
 /*
  * LogLevel.cs
@@ -61,3 +63,5 @@ namespace WebSocketSharp
     Fatal
   }
 }
+
+#endif // !UNITY_WEBPLAYER

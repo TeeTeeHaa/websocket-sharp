@@ -1,3 +1,5 @@
+#if !UNITY_WEBPLAYER
+
 #region License
 /*
  * LineState.cs
@@ -48,3 +50,5 @@ namespace WebSocketSharp.Net
     LF
   }
 }
+
+#endif // !UNITY_WEBPLAYER

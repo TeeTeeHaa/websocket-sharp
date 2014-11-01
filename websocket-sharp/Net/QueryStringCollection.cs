@@ -1,3 +1,5 @@
+#if !UNITY_WEBPLAYER
+
 #region License
 /*
  * QueryStringCollection.cs
@@ -66,3 +68,5 @@ namespace WebSocketSharp.Net
     }
   }
 }
+
+#endif // !UNITY_WEBPLAYER
