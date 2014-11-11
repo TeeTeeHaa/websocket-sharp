@@ -1,4 +1,4 @@
-#if !UNITY_WEBPLAYER
+#if !UNITY_WEBPLAYER && !UNITY_WEBGL
 
 #region License
 /*
@@ -148,4 +148,4 @@ namespace WebSocketSharp.Net
 
 #pragma warning restore 618 // CHANGED to suppress warnings
 
-#endif // !UNITY_WEBPLAYER
+#endif // !UNITY_WEBPLAYER && !UNITY_WEBGL

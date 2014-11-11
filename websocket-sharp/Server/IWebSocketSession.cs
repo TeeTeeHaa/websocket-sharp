@@ -1,4 +1,4 @@
-#if !UNITY_WEBPLAYER
+#if !UNITY_WEBPLAYER && !UNITY_WEBGL
 
 #region License
 /*
@@ -85,4 +85,4 @@ namespace WebSocketSharp.Server
   }
 }
 
-#endif // !UNITY_WEBPLAYER
+#endif // !UNITY_WEBPLAYER && !UNITY_WEBGL

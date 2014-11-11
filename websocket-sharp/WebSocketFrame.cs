@@ -1,4 +1,4 @@
-#if !UNITY_WEBPLAYER
+#if !UNITY_WEBPLAYER && !UNITY_WEBGL
 
 #region License
 /*
@@ -679,4 +679,4 @@ Extended Payload Length: {7}
   }
 }
 
-#endif // !UNITY_WEBPLAYER
+#endif // !UNITY_WEBPLAYER && !UNITY_WEBGL
